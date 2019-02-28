@@ -1,0 +1,177 @@
+
+/*Reset*/
+*{margin:0;
+   padding:0;
+   font-weight: 300;
+   border:none;
+   outline:none;
+   box-sizing: 
+   border-box;
+   font-family: "Arial";
+   overflow:auto;}
+html,body{
+  display: block;
+  width:100%;
+  height:100%;
+  position: absolute;
+  margin:0;
+  padding:0;
+  overflow: auto;
+
+  
+}
+
+
+#conteudo{
+ /* background-image: url('BackgroundGrande.jpg') ;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 50%;*/
+  height:100% ;
+  width: 100%;
+  overflow: hidden; 
+  padding-left:5%;
+  padding-right:1%;
+  }
+.icone{
+  right: 50px;
+  top: 5%;
+  position: absolute;
+  width: 80px;
+  height: auto;}
+
+#Menu-Nav a:hover{
+    text-decoration: underline;
+    font-weight: '500';
+    color:'blue'!important;}
+.secao{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;}
+.texto-conteudo{
+  line-height: 1.5;
+  font-family: Cormorant Garamond, serif;
+  font-weight: 600;
+  font-size: 14pt;
+  margin: 0;
+  white-space: pre-wrap;
+  overflow:visible;
+color:white;}
+.botao{
+  width: 40px;
+  height: 40px;
+  right: 30px;
+  bottom: 5%;
+  background-color: transparent;
+  outline: 0 !important;
+  border: none !important;
+  z-index: 3;}
+.btn:focus{
+      outline-style: none !important;
+      outline:0 !important;
+      box-shadow: none !important;
+      border:none !important;}
+.primeiro-botao{
+    right:80px;
+    transform:rotate(180deg);}
+.botao-fechar{
+  background: linear-gradient(115.04deg , #FF0000  -16.85% , rgba(255,0,0,0.6) 103.44%, #FF0000  )!important;  }
+.botao-fechar>img{
+  height:100% !important;}
+.imagem-botao{
+  object-fit:fill;
+  height:90%;
+  width:90%;
+  margin:auto;}
+.bgApresentacao {
+background: linear-gradient(115.04deg, #000000  -16.85% , rgba(0,0,0,0.6)  103.44%,black  ) ;}
+.bgHabilidades {
+  background: linear-gradient(115.04deg , #11e234  -16.85% , rgb(156, 245, 121) 103.44%, #14e715  ) ; }
+.bgObjetivo {
+    background: linear-gradient(115.04deg , #4169e1  -16.85% , rgba(65,105,225,0.5) 103.44% ,#4169e1   ) ;   }
+.bgContato {
+    background: linear-gradient(95deg, #0094FF  0% , rgba(0,157,255,0.8) 45% ,#0094FF ) ;  }
+.bgContato::-webkit-scrollbar{
+        width: 1em;    }
+.bgContato::-webkit-scrollbar-track {
+      background-color:white;    }
+.bgContato::-webkit-scrollbar-thumb {
+      background-color: #32a9ff;
+      border-radius:2px;}
+.bgHabilidades>div::-webkit-scrollbar{
+         width: 1em;  }
+.bgHabilidades>div::-webkit-scrollbar-track {
+    background-color:white;}   
+.bgHabilidades>div::-webkit-scrollbar-thumb {
+    background-color: #ff5b5b;
+    border-radius:2px;}  
+.bgApresentacao>div::-webkit-scrollbar{
+    width: 1em;}
+.bgApresentacao>div::-webkit-scrollbar-track {
+  background-color:white;}
+.bgApresentacao>div::-webkit-scrollbar-thumb {
+  background-color: dimgray;
+  border-radius:2px;} 
+.bgObjetivo>div::-webkit-scrollbar{
+  width: 1em;}
+.bgObjetivo>div::-webkit-scrollbar-track {
+background-color:white;}
+.bgObjetivo>div::-webkit-scrollbar-thumb {
+background-color: #8da5ed;
+border-radius:2px;}
+#wave{
+  position: absolute;
+  bottom:0;
+  transform:translateY(50%);
+  min-width: 250px;
+  overflow:hidden;}
+@media only screen and (max-width:481px){
+  #Menu1{
+    width:100% !important;  }
+  #Menu2{
+    width: 100% !important;  }
+  .texto-conteudo{
+    font-size:80%;
+
+  }
+ }
+ @media only screen and (max-width:640px){
+  #wave{
+    transform:translateY(40%);
+  }
+ }
+@media only screen  and (max-height:480px){
+  #wave{
+    display: none;
+  }
+  .botao , .primeiro-botao, .botao-fechar{ 
+    background:none !important;
+    background-color: none!important;
+  }
+ 
+}
+@media only screen and (max-height:450px){
+  #titulo-container{
+    font-size: 12pt !important;
+  }  .logo{
+    height:40px !important;
+  }}
+@media only screen and (max-height:330px){
+  #titulo-container{
+    font-size: 10pt !important;
+  }  .logo{
+    height:35px !important;
+  }}
+@media only screen and (max-width:550px){
+  #conteudo{
+    background-position: 67% 60%;
+  }}
+
+  .delay-6s{
+    animation-delay: 6s;
+  }
+  
+  .delay-7s{
+    animation-delay: 7s;
+  }
