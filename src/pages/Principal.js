@@ -19,15 +19,9 @@ class Principal extends Component {
                     <div id='conteudo' >
                  
                         <Titulo></Titulo>
-
-                        
-                        <div style={{width:'30%',height:'60%',backgroundColor:'black',left:'55%',marginTop:'5%',position:'absolute',overflow:'hidden'}}>
-                        <img src={require('../components/imagens/BlackHole.jpg')}></img>
-                        {/*
-                        <img src={Vortex} className='h-50 w-100' style={{transform:'rotate(-8deg)'}} ></img>
-                        <img src={Vortex} className='h-50 w-50' style={{transform:'rotate(10deg)'}} ></img>
-                        <img src={Vortex} className='h-50 w-50'style={{transform:'rotate(10deg)'}}  ></img>
-*/}
+                        <div style={{width:'20%',height:'40%',backgroundColor:'black',left:'70%',marginTop:'5%',position:'absolute',overflow:'visible'}}>
+                        <img src={require('../components/imagens/BlackHole.png')} style={{objectFit:'contain'}} className='w-100 h-100'></img>
+                      
                     </div>
                     </div>
                 </section>

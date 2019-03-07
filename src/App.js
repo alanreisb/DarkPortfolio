@@ -30,6 +30,7 @@ class App extends Component {
       <div className="App" >
         <link href={Bootstrap} rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet" />
+        
         <link href={Animate} rel="stylesheet" />
 
 

@@ -1,4 +1,4 @@
-
+/* 
 /*Reset*/
 *{margin:0;
    padding:0;
@@ -7,8 +7,8 @@
    outline:none;
    box-sizing: 
    border-box;
-   font-family: "Arial";
-   overflow:auto;}
+   font-family: "Azonix";
+   overflow:hidden;}
 html,body{
   display: block;
   width:100%;
@@ -16,7 +16,7 @@ html,body{
   position: absolute;
   margin:0;
   padding:0;
-  overflow: auto;
+  overflow: hidden;
 
   
 }
@@ -31,8 +31,8 @@ html,body{
   height:100% ;
   width: 100%;
   overflow: hidden; 
-  padding-left:5%;
-  padding-right:1%;
+  padding-left:3%;
+  padding-right:3%;
   }
 .icone{
   right: 50px;
@@ -51,7 +51,7 @@ html,body{
   overflow: hidden;}
 .texto-conteudo{
   line-height: 1.5;
-  font-family: Cormorant Garamond, serif;
+
   font-weight: 600;
   font-size: 14pt;
   margin: 0;
@@ -168,10 +168,61 @@ border-radius:2px;}
     background-position: 67% 60%;
   }}
 
-  .delay-6s{
-    animation-delay: 6s;
+  .delays-2s{
+    animation-delay: 2s !important;
   }
-  
-  .delay-7s{
-    animation-delay: 7s;
+  .delays-3s{
+    animation-delay: 3s !important;
   }
+  .delays-4s{
+    animation-delay: 4s !important;
+  }
+  .delays-5s{
+    animation-delay: 5s !important;
+  }
+  .delays-6s{
+    animation-delay: 6s !important;
+  }
+  .delays-7s{
+    animation-delay: 7s !important;
+  }
+  .delays-8s{
+    animation-delay: 8s !important;
+  }
+  .delays-10s{
+    animation-delay: 12s!important;
+  }
+  @font-face{
+    font-family: 'Azonix';
+    src:url('Azonix.otf');
+  } 
+
+  .digitacao{
+    animation: 
+    typing 2.2s steps(40, end) ,
+    blink-caret .75s step-end infinite;
+   
+  }
+  /* Text appears*/
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100%;
+        
+  }
+  90%{
+    border-right:.15em solid white;
+  }
+  95%{
+    border:none;
+  }
+  100%{
+    border:none;
+  }
+}
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+    
+  }
+
