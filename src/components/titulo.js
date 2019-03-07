@@ -3,35 +3,52 @@ import React, { Component } from 'react';
 
 const tituloContainerCss = {
 
-    width:'100%',
-    top:'28%',
+
+    top:'38%',
     position:'absolute',
     textAlign:'left',
      alignContent:'center',
      overflow:'visible',
-     fontSize:'24pt',
+     fontSize:'28pt',
      userSelect:'none',
-     animationDuration:'3s'
      
     
 
     
 };
 
-const tituloCss = { 
-    whiteSpace: 'pre-wrap', 
-    textAlign: 'center', 
-    fontFamily: 'Cormorant Garamond, serif' ,
-    lineHeight:'1',
-    letterSpacing:'0.5px',
+const textTypingCss = { 
+
     color:'white',
+    textAlign: 'left', 
+    lineHeight:'1',
+    fontWeight:'700',
+    overflow: 'hidden', /* Ensures the content is not revealed until the animation */
+    borderRight: '.15em solid transparent', /* The typwriter cursor */
+    whiteSpace: 'nowrap', /* Keeps the content on a single line */
+    margin: '0 auto', /* Gives that scrolling effect as the typing happens */
+    letterSpacing: '.15em', /* Adjust as needed */
+    width:'0',
+    animationFillMode:'forwards'
     
-    fontWeight:'700'
-    
-   };
+};
 
 
+const tituloCss = { 
+
+    color:'white',
+    textAlign: 'left', 
+    lineHeight:'1',
+    fontWeight:'700',
+    overflow: 'visible', /* Ensures the content is not revealed until the animation */
+    whiteSpace: 'nowrap', /* Keeps the content on a single line */
+    margin: '0 auto', /* Gives that scrolling effect as the typing happens */
+    letterSpacing: '.10em', /* Adjust as needed */
+   
+  
     
+};
+
 
 
 //Classe
@@ -39,12 +56,12 @@ class Titulo extends Component {
     render() {
 
         return (
-            <div id='titulo-container' style={tituloContainerCss} className='animated fadeInUp ' >
-              <text style={tituloCss} className='' >Alan Reis.</text><br/>
-              <text style={tituloCss} className='' >Desenvolvedor Front-end</text><br/>
-              <div className='text-justify mt-5 '>
-              <text style={tituloCss} className='text-justify' >Sou um desenvolvedor Front-end <br/>especializado em componentes e 
-              <br/>páginas assíncronas.</text></div>
+            <div id='titulo-container' style={tituloContainerCss} className='' >
+              <h1 style={textTypingCss} className='digitacao'>Alan Reis</h1>
+              <h1 style={textTypingCss} className='digitacao delays-2s'>  Desenvolvedor</h1>
+              <h1 style={textTypingCss} className='digitacao delays-4s'>Front-end</h1>
+              <div style={tituloCss}  className='text-justify mt-5 animated fadeInUp slower delays-6s'>
+              <text className='text-justify ' >REACTJS - NODEJS - .NET</text></div>
             </div>
         );
     }
