@@ -43,7 +43,7 @@ class Titulo extends Component {
               <text style={tituloCss} className='' >Alan Reis.</text><br/>
               <text style={tituloCss} className='' >Desenvolvedor Front-end</text><br/>
               <div className='text-justify mt-5 '>
-              <text style={tituloCss} className='text-justify' >Sou um desenvolvedor Front-end <br/>especializado em componentes e 
+              <text style={tituloCss} className='text-justify'>Especializado em criar componentes e 
               <br/>páginas assíncronas.</text></div>
             </div>
         );
