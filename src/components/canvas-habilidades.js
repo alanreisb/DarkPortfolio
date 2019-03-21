@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const TituloCss = {
     color: 'white',
-    fontSize:'0.94em',
+    fontSize:'1em',
     fontFamily:'verdana',
     fontWeight:'560'
  
@@ -42,11 +42,11 @@ class canvasHabilidades extends Component {
         return (
             <div className='text-center mt-3 mb-3'>
                 <h4 style={TituloCss}>{this.props.titulo}</h4>
-                <div className={`c100 p${this.props.porcentagem} mt-3 ml-3 small`}>
+                <div className={`c100 p${this.props.porcentagem} mt-3 ml-3 `} >
                     <span>{this.props.porcentagem}%</span>
                     <div class="slice ">
-                        <div class="bar  " style={{borderColor:`${this.props.cor}`}}></div>
-                        <div class="fill " ></div>
+                        <div class="bar  " style={{  border: `0.08em solid ${this.props.cor}`}}></div>
+                        <div class="fill " style={{  border: `0.08em solid ${this.props.cor}`}} ></div>
                     </div>
                 </div>
             </div>

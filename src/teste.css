@@ -104,7 +104,7 @@
 .c100.p99 .fill,
 .c100.p100 .fill {
   position: absolute;
-  border: 0.08em solid royalblue;
+
   width: 0.84em;
   height: 0.84em;
   clip: rect(0em, 0.5em, 1em, 0em);
@@ -116,9 +116,7 @@
   transform: rotate(0deg);
 }
 
-.red{
-    border-color: red !important;
-}
+
 .pie-fill,
 .c100.p51 .bar:after,
 .c100.p51 .fill,
@@ -228,7 +226,7 @@
 }
 .c100 {
   position: relative;
-  font-size: 120px;
+  font-size: 125px;
   width: 1em;
   height: 1em;
   border-radius: 50%;
@@ -1016,7 +1014,7 @@
   width: 3.33em;
   line-height: 3.33em;
   font-size: 0.3em;
-  color: #307bbb;
+  
 }
 .c100:hover:after {
   top: 0.04em;
