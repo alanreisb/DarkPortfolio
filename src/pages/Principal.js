@@ -1,14 +1,18 @@
 import React, { Component } from 'react';
 /*Componentes*/
-import Logos from '../components/logos';
 import Menu from '../components/menu';
 import Titulo from '../components/titulo';
-import Foto from '../components/foto';
-import BarraContatos from '../components/barra-contatos';
-import Vortex from '../components/imagens/Vortex.gif';
 
-const radialContainerClasse = 'float-left position-relative pl-1 pr-1 pt-5';
-const tituloHabilidadesClasse = 'pb-3';
+
+const containerImagemCss = {
+    width:'20%',
+    height:'50%',
+    backgroundColor:'black',
+    left:'70%',
+    marginTop:'5%',
+    position:'absolute',
+    overflow:'visible'
+}
 
 class Principal extends Component {
     render() {
@@ -19,7 +23,7 @@ class Principal extends Component {
                     <div id='conteudo' >
                  
                         <Titulo></Titulo>
-                        <div style={{width:'20%',height:'40%',backgroundColor:'black',left:'70%',marginTop:'5%',position:'absolute',overflow:'visible'}}>
+                        <div style={containerImagemCss}>
                         <img src={require('../components/imagens/BlackHole.png')} style={{objectFit:'contain'}} className='w-100 h-100'></img>
                       
                     </div>

@@ -1,34 +1,55 @@
 import React, { Component } from 'react';
-import Tabela from '../components/tabela';
-import Botoes from '../components/botoes';
-import Wave from '../components/wave';
+import MenuLateral from '../components/menu-lateral';
+import CanvasHabilidades from '../components/canvas-habilidades';
+
+const textoCss = {
+    float: 'left',
+    color: 'white',
+    backgroundColor: 'black',
+    left: '10%',
+    top: '55%',
+    position: 'relative',
+    transform: 'translateY(-50%)',
+    height: '80%',
+    width: '35%',
+    fontFamily: 'arial !important'
+
+}
 
 class Habilidades extends Component {
     render() {
         return (
-            <div className='secao'>
-                <Tabela titulo='Conhecimentos' gradiente='bgHabilidades' texto='asd' icone='habilidades'>
-                    <div style={{columnCount:'2',columnWidth:'45%',columnGap:'auto',width:'100%',overflowX:'hidden',overflowY:'auto'}}>
-                    <ul class='col-sm pl-0 p-0'><u>Front-End</u>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>ReactJs</li>
-                        <li>Gulp</li>
-                        <li>Jquery</li>
-                    </ul>
+            <div className='w-100 h-100 position-absolute container-fluid' style={{ backgroundColor: 'black' }}>
+                <MenuLateral></MenuLateral>
 
-                    <ul class='col-sm pl-0 p-0'><u>Back-End</u>
-                        <li class='mt-2'>NodeJs</li>
-                        <li>Asp.NET</li>
 
-                    </ul>
+                <div style={textoCss}>
+                    <h1 className='display-5 mb-4'>Habilidades</h1>
+                    <p className='text-justify' style={{ fontFamily: 'arial', lineHeight: '1.5' }}><br />Como desenvolvedor busco me focar principalmente na composição de componentes e de páginas assíncronas. Através de tecnologias como Ajax, Jquery, React, CSS, Bootstrap.<br /><br />
+                        Busco também me manter atualizado sobre algumas linguagens e sua funcionalidade no backend. Me dediquei alguns anos a compreensão e utilização da linguagem C# ao ASP.Net antes de me focar mais ao front-end. Hoje busco me manter próximo ao NodeJs afim de poder utilizá-lo conjuntamente ao react. Resultando em uma aplicação leve e eficiente.
+                    </p>
+                </div>
+                <div className='w-50 h-100 float-right container-fluid position-relative p-5' >
+                <ul>
+                    <div className='d-flex flex-row justify-content-between'>
+                    <li><CanvasHabilidades titulo='ReactJs' cor='#00ffff' porcentagem='20'></CanvasHabilidades></li>
+                    <li><CanvasHabilidades titulo='NodeJs' cor='#06A10B'porcentagem='20'></CanvasHabilidades></li>
+                    <li><CanvasHabilidades titulo='C#' cor='#b200ff'porcentagem='20'></CanvasHabilidades></li>
+                    </div>
+                    <div className='d-flex flex-row justify-content-between'>
+                    <li ><CanvasHabilidades titulo='Html' cor='#ff7034'porcentagem='20'></CanvasHabilidades></li>
+                    <li ><CanvasHabilidades titulo='CSS'cor='#27aee3' porcentagem='20'></CanvasHabilidades></li>
+                    <li ><CanvasHabilidades titulo='JQuery'cor='#2e77bb' porcentagem='20'></CanvasHabilidades></li>
+                    </div>
+                    <div className='d-flex flex-row justify-content-between'>
+                    <li><CanvasHabilidades></CanvasHabilidades></li>
+                    <li><CanvasHabilidades></CanvasHabilidades></li>
+                    <li><CanvasHabilidades></CanvasHabilidades></li>
+                    </div>
+                </ul>
+                
+                </div>
 
-</div>
-                </Tabela>
-                <Wave></Wave>
-                <Botoes linkAnterior='/objetivo' linkProximo='/contato'
-                imagem1='seta' imagem2='seta' fundo='bgHabilidades'></Botoes>
             </div>
         );
     }

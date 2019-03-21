@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { relative } from 'path';
+
 
 
 const tituloContainerCss = {
@@ -64,10 +64,10 @@ class Titulo extends Component {
                 <div id='titulo-container' style={tituloContainerCss} className='' >
 
                     <h1 style={textTypingCss} className='digitacao'>Alan Reis</h1>
-                    <h1 style={textTypingCss} className='digitacao delays-2s'>  Desenvolvedor</h1>
-                    <h1 style={textTypingCss} className='digitacao delays-4s'>Front-end</h1>
+                    <h1 style={textTypingCss} className='digitacao delays-1_5s'>  Desenvolvedor</h1>
+                    <h1 style={textTypingCss} className='digitacao delays-3s'>Front-end</h1>
                 </div>
-                <div style={tituloCss} className='text-justify mt-5 animated fadeInUp slower delays-6s'>
+                <div style={tituloCss} className='text-justify mt-5 animated fadeInUp slower delays-5s'>
 
                     <text className='text-justify ' >REACTJS - NODEJS - .NET</text></div>
 

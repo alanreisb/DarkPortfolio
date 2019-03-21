@@ -12,7 +12,8 @@ const menuLinkClasseUltima = "nav-link  ";
 const linkCss = {
   color: 'white',
   fontWeight: '400',
-  fontSize:'12pt'
+  fontSize:'12pt',
+  textDecoration: 'none',
 }
 
 class Menu extends Component {
@@ -23,14 +24,14 @@ class Menu extends Component {
       <ul  className='navbar-nav p-0 pr-3 m-0 ml-auto' style={{float:'right'}}>
 
         <li class='nav-item text-left m-0 p-3' >
-          <a href='/apresentacao' class={menuLinkClasse} style={linkCss}>Sobre Mim</a>
+          <a href='/sobre' class={menuLinkClasse} style={linkCss}>Sobre Mim</a>
 
         </li>
         <li class='nav-item text-center p-3'>
-          <Link to="/objetivo" class={menuLinkClasse} style={linkCss}  >Objetivo</Link >
+          <Link to="/habilidades" class={menuLinkClasse} style={linkCss}  >Habilidades</Link >
         </li>
         <li class='nav-item text-center p-3'>
-          <Link to="/habilidades" class={menuLinkClasse} style={linkCss} >Habilidades</Link >
+          <Link to="/portfolio" class={menuLinkClasse} style={linkCss} >Portfolio</Link >
         </li>
         <li class='nav-item text-center p-3' >
           <Link to="/contato" class={menuLinkClasseUltima} style={linkCss} >Contatos</Link >
