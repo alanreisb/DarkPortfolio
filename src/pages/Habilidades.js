@@ -37,12 +37,12 @@ class Habilidades extends Component {
                 </div>
                 <div className='w-50 h-100 float-right container-fluid position-relative p-5' >
                 <ul style={ListaHabilidadesCss}>
-                    <div className='d-flex flex-row justify-content-between mb-5'>
+                    <div className='d-flex flex-row justify-content-between'>
                     <li><CanvasHabilidades titulo='ReactJs' cor='#00ffff' porcentagem='30'></CanvasHabilidades></li>
                     <li><CanvasHabilidades titulo='NodeJs' cor='#06A10B'porcentagem='20'></CanvasHabilidades></li>
                     <li><CanvasHabilidades titulo='C#' cor='#b200ff'porcentagem='65'></CanvasHabilidades></li>
                     </div>
-                    <div className='d-flex flex-row justify-content-between mt-5'>
+                    <div className='d-flex flex-row justify-content-between '>
                     <li ><CanvasHabilidades titulo='Html' cor='#ff7034'porcentagem='90'></CanvasHabilidades></li>
                     <li ><CanvasHabilidades titulo='CSS'cor='#27aee3' porcentagem='75'></CanvasHabilidades></li>
                     <li ><CanvasHabilidades titulo='JQuery'cor='#2e77bb' porcentagem='70'></CanvasHabilidades></li>
