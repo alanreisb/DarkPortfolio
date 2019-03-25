@@ -30,7 +30,8 @@ const textTypingCss = {
     margin: '0 auto', /* Gives that scrolling effect as the typing happens */
     letterSpacing: '.15em', /* Adjust as needed */
     width: '0',
-    animationFillMode: 'forwards'
+    animationFillMode: 'forwards',
+    fontFamily:'Azonix'
 
 };
 
@@ -48,6 +49,7 @@ const tituloCss = {
     letterSpacing: '.10em', /* Adjust as needed */
     fontSize:'26pt',
     fontWeight:'700',
+    fontFamily:'Azonix'
 
 
 

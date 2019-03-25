@@ -46,7 +46,7 @@ const liContatosCss={
 }
 
 function Botao(props) {
-return <button className='w-100 h-100 botao-lateral text-center'   style={{backgroundImage:`url(${props.background})`, backgroundSize:'50% 50%',backgroundRepeat:'no-repeat',backgroundPosition:'center 50%',backgroundColor:'transparent',color:'transparent',fontSize:'6pt',zIndex:'3',margin:'0',padding:'0',cursor:'pointer'}}>{props.children}</button>;
+return <button className='w-100 h-100 botao-lateral text-center'   style={{backgroundImage:`url(${props.background})`, backgroundSize:'50% 50%',backgroundRepeat:'no-repeat',backgroundPosition:'center 50%',backgroundColor:'transparent',color:'transparent',fontSize:'1em',zIndex:'3',margin:'0',padding:'0',cursor:'pointer'}}>{props.children}</button>;
 
 }
 

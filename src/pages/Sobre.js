@@ -10,7 +10,7 @@ const textoCss = {
   color: 'white',
   backgroundColor: 'black',
   left: '10%',
-  top: '50%',
+  top: '60%',
   position: 'relative',
   transform: 'translateY(-50%)',
   height: '80%',

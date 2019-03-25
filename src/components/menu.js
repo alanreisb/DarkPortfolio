@@ -14,6 +14,7 @@ const linkCss = {
   fontWeight: '400',
   fontSize:'12pt',
   textDecoration: 'none',
+  fontFamily:'Azonix'
 }
 
 class Menu extends Component {
@@ -34,7 +35,7 @@ class Menu extends Component {
           <Link to="/portfolio" class={menuLinkClasse} style={linkCss} >Portfolio</Link >
         </li>
         <li class='nav-item text-center p-3' >
-          <Link to="/contato" class={menuLinkClasseUltima} style={linkCss} >Contatos</Link >
+          <Link to="/contatos" class={menuLinkClasseUltima} style={linkCss} >Contatos</Link >
         </li>
 
       </ul>
