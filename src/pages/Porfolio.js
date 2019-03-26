@@ -18,7 +18,7 @@ const textoCss = {
 class Portfolio extends Component {
     render() {
         return (
-            <div className='w-100 h-100 position-absolute container-fluid' style={{ backgroundColor: 'black' }}>
+          <div className='principal container-fluid'>
             <MenuLateral></MenuLateral>
     
     
