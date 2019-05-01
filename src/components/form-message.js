@@ -1,63 +1,71 @@
 import React, { Component } from 'react';
-
-const formClasse = 'col-6 h-100 float-right position-relative   rounded p-4 pl-5';
+import Envelope from './imagens/icones contato/envelope.svg';
+const formClasse = 'col-5  float-right position-relative text-left ';
 
 const formCss = {
-    backgroundColor:'black',
-     height:'100%',
-     fontFamily:'arial !important', 
-     marginRight:'10%',
-     background:'rgba(50,50,50,.3)',
+
+    height: '100%',
+    fontFamily: 'arial !important',
+    top: '0',
+
 }
 
 const tituloCss = {
     fontFamily: 'arial !important',
-    color:'white',
-    fontWeight:'600',
-    
+    color: 'white',
+    fontWeight: '500',
+    textAlign: 'left'
+
+
 }
 
-const inputClass = 'col-11 p-2 rounded';
 
-const inputCss = {
-}
 
-const labelClass = 'mt-3 mb-0';
+const labelClass = 'mt-3 mb-0 ';
 
 const labelCss = {
     fontFamily: 'arial !important',
-    color:'white',
-    fontWeight:'600',
-    fontSize:'1.2em'
+    color: 'white',
+    fontWeight: '600',
+    fontSize: '1.2em'
 };
-const botaoClasse = 'btn btn-dark float-right mt-2 btn-lg col-4';
+const botaoClasse = 'btn btn-dark float-right  btn-lg col-4';
 
 const botaoCss = {
-    marginRight:'8%',
-    color:'white',
-    fontWeight:'600',
-    fontSize:'1.2em'
+    marginRight: '10%',
+    marginTop: '8%',
+    color: 'white',
+    fontWeight: '600',
+    fontSize: '1.2em'
 };
 
 class FormMessage extends Component {
     render() {
         return (
-            <div>
-                <form className={formClasse} style={formCss}>
-                    <h3 style={tituloCss}>Mensagem:</h3>
+            <div className={formClasse} style={formCss}>
+                <form >
+                    <div className='w-100 d-flex flex-row'> 
+                    <img id='letter' src={Envelope} className='mr-4 animated fadeInLeft' style={{width:'70px',height:'70px',transform:'translateY(-60%)'}}></img>
+                    <h2 className='mr-3 mt-3'>Entre em contato</h2>
+                  
+                    
+                    </div>
+                    <h4 style={tituloCss}>Deixe sua mensagem...</h4>
 
                     <label className={labelClass} style={labelCss}>Nome</label>
-                    <input type='text'  className={inputClass} style={inputCss}></input>
-                    
-                    
-                    
-                    <label  className={labelClass} style={labelCss}>Email</label>
-                    <input type='email' className={inputClass}></input>
-                    
-                    <label  className={labelClass} style={labelCss}>Mensagem</label>
-                    <textarea className='col-11 p-2 rounded' rows='5' style={{resize:'none'}}></textarea>
+                    <br />
+                    <input type='text' className='col-5 p-2 rounded'></input>
+                    <br />
 
-                    <input type='submit'className={botaoClasse} style={botaoCss}></input>
+
+                    <label className={labelClass} style={labelCss}>Email</label>
+                    <br />
+                    <input type='email' className='col-9 p-2 rounded'></input>
+                    <br />
+                    <label className={labelClass} style={labelCss}>Mensagem</label>
+                    <textarea className='col-11 p-2 rounded' rows='9' style={{ resize: 'none' }}></textarea>
+
+                    <input type='submit' className={botaoClasse} style={botaoCss}></input>
 
                 </form>
             </div>
