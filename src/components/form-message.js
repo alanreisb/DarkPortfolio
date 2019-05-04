@@ -45,7 +45,7 @@ class FormMessage extends Component {
             <div className={formClasse} style={formCss}>
                 <form >
                     <div className='w-100 d-flex flex-row'> 
-                    <img id='letter' src={Envelope} className='mr-4 animated fadeInLeft' style={{width:'70px',height:'70px',transform:'translateY(-60%)'}}></img>
+                    <img id='letter' src={Envelope} className='mr-4 animated fadeInLeft' style={{width:'70px',height:'70px',transform:'translateY(-60%)',animationTimingFunction: 'ease-out',animationDuration:'0.4s'}}></img>
                     <h2 className='mr-3 mt-3'>Entre em contato</h2>
                   
                     

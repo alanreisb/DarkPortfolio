@@ -24,7 +24,7 @@ class Principal extends Component {
                  
                         <Titulo></Titulo>
                         <div style={containerImagemCss}>
-                        <img src={require('../components/imagens/BlackHole.png')} style={{objectFit:'contain'}} className='w-100 h-100'></img>
+                        <img src={require('../components/imagens/BlackHole.gif')} style={{objectFit:'contain',widht:'200px',height:'200px'}} className='w-100 h-100'></img>
                       
                     </div>
                     </div>
