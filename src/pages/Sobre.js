@@ -37,7 +37,7 @@ class Sobre extends Component {
 
         <div style={textoCss}>
           <h1 className='display-5 mb-4'>Sobre mim</h1>
-          <p className='text-justify' style={{ fontFamily: 'arial', lineHeight: '1.5' }}><br />Sou um profissional apaixonado por desafios que nunca desiste de algo que começa. Trabalhava na área administrativa anteriormente. Porém, sempre fui apaixonado por tecnologia e automação de tarefas. Desenvolvia pequenas aplicações para aumento de performance nas empresas em que trabalhei, até que finalmente resolvi me arriscar mudando para área e cursando Análise e Desenvolvimento de Sistemas.<br /><br />
+          <p className='text-justify' style={{ fontFamily: 'arial', lineHeight: '1.5' }}><br />Sou um profissional apaixonado por desafios que nunca desiste de algo que começa. Trabalhava na área administrativa anteriormente. Porém, sempre quis me aproximar da área de tecnologia e automação de tarefas. Desenvolvia pequenas aplicações para aumento de performance nas empresas em que trabalhei, até que finalmente resolvi me arriscar mudando para área e cursando Análise e Desenvolvimento de Sistemas.<br /><br />
             Busco aprender toda a técnica disponível em grande parte do meu tempo livre. Costumo ser perfeccionista com detalhes, sem nunca deixar de ser dinâmico ao executar alguma tarefa.<br /><br />
             Atualmente estou à procura de um estágio onde possa empregar todos os conhecimentos e habilidades adquiridas.
           </p>

@@ -1,37 +1,48 @@
 import React, { Component } from 'react';
 import MenuLateral from '../components/menu-lateral';
+import Exodus from '../components/imagens/portfolio/Exodus.gif';
+
 
 const textoCss = {
-    float: 'left',
-    color: 'white',
-    backgroundColor: 'black',
-    left: '10%',
-    top: '55%',
-    position: 'relative',
-    transform: 'translateY(-50%)',
-    height: '80%',
-    width: '35%',
-    fontFamily: 'arial !important'
+  color: 'white',
+
+  marginTop: '12%',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+  display: 'flex',
+  alignItens: 'center',
+  height: '45%',
+  width: '60%',
+  fontFamily: 'arial !important'
+
+}
+const liCss = {
   
-  }
-  
+  height: '100%',
+  width: '240px',
+  borderRadius: '10px'
+}
+
+
+  ;
 class Portfolio extends Component {
-    render() {
-        return (
-          <div className='principal container-fluid'>
-            <MenuLateral></MenuLateral>
-    
-    
-            <div style={textoCss}>
-              <h1 className='display-5 mb-4'>Sobre mim</h1>
-              <p className='text-justify' style={{ fontFamily: 'arial', lineHeight: '1.5' }}><br />Sou um profissional apaixonado por desafios que nunca desiste de algo que começa. Trabalhava na área administrativa anteriormente. Porém, sempre fui apaixonado por tecnologia e automação de tarefas. Desenvolvia pequenas aplicações para aumento de performance nas empresas em que trabalhei, até que finalmente resolvi mudar de área e cursar Análise e Desenvolvimento de Sistemas.<br /><br />
-                Busco aprender toda a técnica disponível em grande parte do meu tempo livre. Costumo ser perfeccionista com detalhes, sem nunca deixar de ser dinâmico ao executar alguma tarefa.<br /><br />
-                Atualmente estou à procura de um estágio onde possa empregar todos os conhecimentos e habilidades adquiridas.
-              </p>
-            </div>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className='principal container-fluid'>
+        <MenuLateral></MenuLateral>
+
+
+        <div style={textoCss}>
+          <ul className='d-flex d-inline-block'>
+            <li style={liCss} className='m-3'><figure><figcaption className='mb-3'>Exodus - LandingPage</figcaption><img src={Exodus}></img></figure></li>
+            <li style={liCss} className='m-3'><figure><figcaption></figcaption><img></img></figure></li>
+            <li style={liCss} className='m-3'><figure><figcaption></figcaption><img></img></figure></li>
+          </ul>
+
+        </div>
+      </div>
+    );
+  }
 }
 
 export default Portfolio;

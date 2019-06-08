@@ -4,7 +4,7 @@ const formClasse = 'col-5  float-right position-relative text-left ';
 
 const formCss = {
 
-    height: '100%',
+    height: '70%',
     fontFamily: 'arial !important',
     top: '0',
 
@@ -63,7 +63,7 @@ class FormMessage extends Component {
                     <input type='email' className='col-9 p-2 rounded'></input>
                     <br />
                     <label className={labelClass} style={labelCss}>Mensagem</label>
-                    <textarea className='col-11 p-2 rounded' rows='9' style={{ resize: 'none' }}></textarea>
+                    <textarea className='col-11 p-2 rounded' rows='4' style={{ resize: 'none' }}></textarea>
 
                     <input type='submit' className={botaoClasse} style={botaoCss}></input>
 
