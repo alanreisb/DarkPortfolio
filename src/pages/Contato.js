@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import MenuLateral from '../components/menu-lateral';
 import FormMessage from '../components/form-message';
 
+import Localizacao from '../components/imagens/contatos/placeholder.png';
 import fbIcon from '../components/imagens/icones contato/facebook.png';
 import wpIcon from '../components/imagens/icones contato/whatsapp.png';
 import lkIcon from '../components/imagens/icones contato/linkedin.png';
@@ -11,12 +12,13 @@ import lkIcon from '../components/imagens/icones contato/linkedin.png';
 const tituloCss = {
     fontFamily: 'arial',
 
+
 }
 
 const textoCss = {
     backgroundColor: 'black',
     color: 'white',
-    left: '7%',
+    left: '10%',
     top: '0',
     position: 'relative',
     width: '80%',
@@ -27,8 +29,8 @@ const textoCss = {
 
 };
 const contatosCss = {
-    width:'50%',
-    marginTop:'2.5%'
+    width: '50%',
+    marginTop: '2.5%'
 
 }
 const contatosLiClasse = 'p-2 ';
@@ -51,7 +53,9 @@ class Contato extends Component {
 
 
                         <div className='rounded pl-0 pr-4 pt-0 pb-0 text-left' style={contatosCss}>
-                            <div className='w-50 pl-0 text-left text-light font-weight-bold mt-0 ' style={tituloCss}><h1 className=''> Contatos </h1> </div>
+                            <div className='w-50 pl-0 text-left text-light font-weight-bold mt-0 d-flex flex-row' style={tituloCss}>
+                                <img src={Localizacao} style={{ objectFit: 'contain',animationTimingFunction: 'ease-out',animationDuration:'0.4s' }} className='mr-3 animated fadeInDown' />
+                                <h2 className=''> Localização </h2> </div>
 
                             <p className='text-justify mt-3' style={{ fontFamily: 'arial', lineHeight: '2', fontWeight: 'bold' }}>Cidade: Piquete-SP<br />
                                 CEP: 12.620-000<br />
@@ -64,9 +68,9 @@ class Contato extends Component {
                                 <li className={contatosLiClasse}><a href='tel:(12)98250-1585'><img src={wpIcon} style={iconContatoCss} title='(12)98250-1585'></img></a></li>
                             </ul>
 
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117888.9197057426!2d-45.25190273647298!3d-22.57802836110393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccba25567987bd%3A0x92b702e677e1cb47!2sPiquete+-+SP%2C+12620-000!5e0!3m2!1spt-BR!2sbr!4v1559961653681!5m2!1spt-BR!2sbr" width="80%" height="300" frameborder="0"  allowfullscreen></iframe>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117888.9197057426!2d-45.25190273647298!3d-22.57802836110393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ccba25567987bd%3A0x92b702e677e1cb47!2sPiquete+-+SP%2C+12620-000!5e0!3m2!1spt-BR!2sbr!4v1559961653681!5m2!1spt-BR!2sbr" width="80%" height="300" frameborder="0" allowfullscreen></iframe>
 
-                            
+
 
                         </div>
 

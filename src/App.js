@@ -3,19 +3,17 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { HashRouter } from 'react-router-dom';
-import './App.css';
-/*Scripts*/
+/*Estilo*/
+import './styles/App.css';
 import Bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
-import Animate from 'animate.css';
-import TesteCss from './teste.css';
-import Barba from 'barba.js';
+import Animate from './styles/Animate.css';
 /*Pages*/
 import Principal from './pages/Principal';
 import Sobre from './pages/Sobre';
 import Portfolio from './pages/Porfolio';
 import Habilidades from './pages/Habilidades';
 import Contato from './pages/Contato';
-import Canvas from './components/canvas-habilidades';
+
 
 
 

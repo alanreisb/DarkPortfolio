@@ -3,7 +3,7 @@ import MenuLateral from '../components/menu-lateral';
 import CanvasHabilidades from '../components/canvas-habilidades';
 
 const ListaHabilidadesCss = {
-    marginTop: '10%',
+    marginTop: '5%',
     paddingLeft: '15%',
     paddingRight: '1%',
     backgroundColor:'black',
@@ -40,7 +40,7 @@ class Habilidades extends Component {
                 <div className='w-50 h-100 float-right container-fluid position-relative p-0' >
                     <ul style={ListaHabilidadesCss}>
                         <div className='mb-4'><h3>Plataformas</h3>
-                            <li style={{backgroundColor:'black'}}><CanvasHabilidades titulo='ReactJs' cor='green' porcentagem='30'></CanvasHabilidades></li>
+                            <li style={{backgroundColor:'black'}}><CanvasHabilidades titulo='ReactJs' cor='green' porcentagem='40'></CanvasHabilidades></li>
                             <li><CanvasHabilidades titulo='NodeJs' cor='green' porcentagem='20'></CanvasHabilidades></li>
                         </div>
                         <div className='mb-4' ><h3>Linguagens</h3>

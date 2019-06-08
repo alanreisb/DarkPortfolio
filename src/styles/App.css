@@ -303,7 +303,7 @@ color:white;}
   }
   @font-face{
     font-family: 'Azonix';
-    src:url('Azonix.otf');
+    src:url('./fonts/Azonix.otf');
   } 
 
   .digitacao{
