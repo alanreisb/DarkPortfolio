@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 
 const tituloContainerCss = {
 
-
+    left:'3%',
     top: '35%',
     position: 'absolute',
     textAlign: 'left',
@@ -49,7 +49,8 @@ const tituloCss = {
     letterSpacing: '.10em', /* Adjust as needed */
     fontSize:'26pt',
     fontWeight:'700',
-    fontFamily:'Azonix'
+    fontFamily:'Azonix',
+    left:'3%',
 
 
 

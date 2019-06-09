@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { HashRouter } from 'react-router-dom';
 /*Estilo*/
-import './styles/App.css';
+import './styles/App.scss';
 import Bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
 import Animate from './styles/Animate.css';
 /*Pages*/
@@ -12,7 +12,7 @@ import Principal from './pages/Principal';
 import Sobre from './pages/Sobre';
 import Portfolio from './pages/Porfolio';
 import Habilidades from './pages/Habilidades';
-import Contato from './pages/Contato';
+import Contatos from './pages/Contatos';
 
 
 
@@ -22,7 +22,6 @@ class App extends Component {
     document.title = "Dev Alan Reis"
   }
   render() {
-
     console.log(this.state);
     console.log("This is the process.env", process.env.PUBLIC_URL);
     return (
@@ -37,7 +36,7 @@ class App extends Component {
         <Route exact path={`/habilidades`} component={Habilidades} />
         {/*<Route exact path={`/apresentacao`} component={Apresentacao} />*/}
         <Route exact path={`/portfolio`} component={Portfolio} />
-        <Route exact path={`/contatos`} component={Contato} />
+        <Route exact path={`/contatos`} component={Contatos} />
 
 
       </div>
