@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/DarkPortfolio/static/media/Azonix.cdfe47b3.otf"
   },
   {
-    "revision": "80030518e55b3d596a7f",
-    "url": "/DarkPortfolio/static/css/main.ae603aa6.chunk.css"
+    "revision": "f4e56092a48c7e1924d4",
+    "url": "/DarkPortfolio/static/css/main.5e33fb29.chunk.css"
   },
   {
     "revision": "09b3a5f450c0d6fc498c2de9211dafa8",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/DarkPortfolio/static/media/envelope.1c182dca.svg"
   },
   {
-    "revision": "80030518e55b3d596a7f",
-    "url": "/DarkPortfolio/static/js/main.80030518.chunk.js"
+    "revision": "f4e56092a48c7e1924d4",
+    "url": "/DarkPortfolio/static/js/main.f4e56092.chunk.js"
   },
   {
     "revision": "994977c48fde58ac674a2d05ba5a5efb",
@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/DarkPortfolio/static/media/jquery.a3af0655.png"
   },
   {
-    "revision": "826879c3383772b241b3c337b8da04eb",
-    "url": "/DarkPortfolio/static/media/csharp.826879c3.png"
-  },
-  {
     "revision": "d14e4fd3c8b856f05612643d6773e497",
     "url": "/DarkPortfolio/static/media/react.d14e4fd3.png"
+  },
+  {
+    "revision": "826879c3383772b241b3c337b8da04eb",
+    "url": "/DarkPortfolio/static/media/csharp.826879c3.png"
   },
   {
     "revision": "37232f0795c74ba08091227d7169db14",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/DarkPortfolio/static/css/1.cef5f085.chunk.css"
   },
   {
-    "revision": "f63253147116452a5487b224c65ef0be",
+    "revision": "1e546497365b07a8abba5da4cd0abb93",
     "url": "/DarkPortfolio/index.html"
   }
 ];
