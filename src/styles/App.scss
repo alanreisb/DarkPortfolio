@@ -257,7 +257,6 @@ a:visited{
     > .icone-form{
       width:70px;
       height:70px;
-     
       animation-timing-function: ease-out;
       animation-duration:0.4s;
       object-fit: contain;
@@ -274,11 +273,12 @@ a:visited{
     font-weight: 600;
     font-size: 1.2em;
   }
-  > .botao{
+  > .form-botao{
     margin-right: 10%;
     margin-top: 8%;
     font-weight: 600;
     font-size: 1.2em;
+    
   }
 }
 }

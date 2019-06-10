@@ -5,7 +5,7 @@ import Envelope from '../imagens/icones contato/envelope.svg';
 const formClasse = 'col-5  float-right position-relative text-left fonte-secundaria ';
 const formTituloClasse = 'w-100 d-flex flex-row'; 
 const labelClass = 'mt-3 mb-0 ';
-const botaoClasse = 'btn btn-dark float-right  btn-lg col-4';
+const botaoClasse = 'btn btn-secondary float-right  btn-lg col-4';
 
 
 
@@ -35,7 +35,7 @@ class FormMessage extends Component {
                     <label className={`etiqueta ${labelClass}`}>Mensagem</label>
                     <textarea className='col-11 p-2 rounded' rows='4' style={{ resize: 'none' }}></textarea>
 
-                    <input type='submit' className={`botao ${botaoClasse}`} ></input>
+                    <input type='submit' className={`form-botao ${botaoClasse}`} ></input>
 
                 </form>
             </div>

@@ -22,7 +22,7 @@ class navPrincipal extends Component {
         <ul className={menuListaClasse}>
 
           <li class={menuLiClasse} >
-            <a href='/sobre' class={menuLinkClasse} style={linkCss}>Sobre Mim</a>
+            <Link to="/sobre" class={menuLinkClasse} style={linkCss} >Sobre Mim</Link>
 
           </li>
           <li class={menuLiClasse} >
