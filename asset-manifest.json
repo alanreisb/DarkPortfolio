@@ -1,7 +1,7 @@
 {
   "main.css": "/DarkPortfolio/static/css/main.c3ec6323.chunk.css",
-  "main.js": "/DarkPortfolio/static/js/main.39b15c2f.chunk.js",
-  "main.js.map": "/DarkPortfolio/static/js/main.39b15c2f.chunk.js.map",
+  "main.js": "/DarkPortfolio/static/js/main.565d71b1.chunk.js",
+  "main.js.map": "/DarkPortfolio/static/js/main.565d71b1.chunk.js.map",
   "static/css/1.cef5f085.chunk.css": "/DarkPortfolio/static/css/1.cef5f085.chunk.css",
   "static/js/1.f0a8a2bc.chunk.js": "/DarkPortfolio/static/js/1.f0a8a2bc.chunk.js",
   "static/js/1.f0a8a2bc.chunk.js.map": "/DarkPortfolio/static/js/1.f0a8a2bc.chunk.js.map",
@@ -14,6 +14,6 @@
   "static/css/1.cef5f085.chunk.css.map": "/DarkPortfolio/static/css/1.cef5f085.chunk.css.map",
   "static/css/main.c3ec6323.chunk.css.map": "/DarkPortfolio/static/css/main.c3ec6323.chunk.css.map",
   "index.html": "/DarkPortfolio/index.html",
-  "precache-manifest.2eefc5306eef62d2febbaba6a17cd18c.js": "/DarkPortfolio/precache-manifest.2eefc5306eef62d2febbaba6a17cd18c.js",
+  "precache-manifest.c6c0e6d41710ed363cc8cca53df93553.js": "/DarkPortfolio/precache-manifest.c6c0e6d41710ed363cc8cca53df93553.js",
   "service-worker.js": "/DarkPortfolio/service-worker.js"
 }
