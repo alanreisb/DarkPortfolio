@@ -95,22 +95,23 @@ a:visited{
     overflow: visible;
     transition-property:  transform;
     transition-duration: 2s;
+    
 
   &:before{
-  width:35px;
+  width:60px;
   position: absolute;
-  height:70px;
+  height:60px;
   box-shadow:-1px 0.8px #939393,  0px -0.8px #939393;
-  left: -35px;
-  top: 15px;
+  left: -60px;
+  top: 5px;
   z-index: 3;
   border-radius:35px 0 0 35px;
-  padding-top:20px;
-  padding-left:10px;
-  background-image: url(../components/imagens/player/music.png);
-  background-size:60%;
+  background-color: black;
+  background-image: url(../components/imagens/player/music.gif);
+  background-size:100%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position-x:right;
+  background-position-y:center;
   content: '';
   }
   &:hover{

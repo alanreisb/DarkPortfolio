@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-/*imagens*/
-import Music from '../imagens/player/music.png';
 
 class player extends Component {
     render() {
