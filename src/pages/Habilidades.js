@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //Componentes
-import MenuLateral from '../components/menu-lateral';
+import MenuLateral from '../components/Todas/menu-lateral';
 import Texto from '../components/Texto';
 import Indicador from '../components/Habilidades/Indicador';
 

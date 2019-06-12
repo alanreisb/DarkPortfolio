@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
-import homeIcon from '../components/imagens/menu/home.png';
-import profileIcon from '../components/imagens/menu/profile.png';
-import skillIcon from '../components/imagens/menu/skills.png';
-import contactIcon from '../components/imagens/menu/speech.png';
-import facebookIcon from '../components/imagens/menu/facebook.png';
-import whatsappIcon from '../components/imagens/menu/whatsapp.png';
-import githubIcon from '../components/imagens/menu/github.png';
-import linkedinIcon from '../components/imagens/menu/linkedin.png';
+import homeIcon from '../imagens/menu/home.png';
+import profileIcon from '../imagens/menu/profile.png';
+import skillIcon from '../imagens/menu/skills.png';
+import contactIcon from '../imagens/menu/speech.png';
+import facebookIcon from '../imagens/menu/facebook.png';
+import whatsappIcon from '../imagens/menu/whatsapp.png';
+import githubIcon from '../imagens/menu/github.png';
+import linkedinIcon from '../imagens/menu/linkedin.png';
 const paginasUlCss ={
     top:'50%',
     position:'absolute',

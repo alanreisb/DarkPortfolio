@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //Componentes
-import MenuLateral from '../components/menu-lateral';
+import MenuLateral from '../components/Todas/menu-lateral';
 import FormMessage from '../components/Contatos/form-message';
 //Imagens
 import Localizacao from '../components/imagens/contatos/placeholder.png';

@@ -1,5 +1,5 @@
 /*Core*/
-import React, { Component } from 'react';
+import React, { Component, lazy, Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { HashRouter } from 'react-router-dom';
@@ -7,13 +7,18 @@ import { HashRouter } from 'react-router-dom';
 import './styles/App.scss';
 import Bootstrap from 'bootstrap/dist/css/bootstrap.min.css';
 import Animate from './styles/Animate.css';
-/*Pages*/
-import Principal from './pages/Principal';
-import Sobre from './pages/Sobre';
-import Portfolio from './pages/Porfolio';
-import Habilidades from './pages/Habilidades';
-import Contatos from './pages/Contatos';
+/*Paginas*/
 
+
+
+import LoadingImagem from './components/imagens/loading/loading.gif';
+import LoadingTexto from './components/imagens/loading/texto.gif';
+
+const Principal = lazy(() => import('./pages/Principal'));
+const Sobre = lazy(() => import('./pages/Sobre'));
+const Porfolio = lazy(() => import('./pages/Porfolio'));
+const Habilidades = lazy(() => import('./pages/Habilidades'));
+const Contatos = lazy(() => import('./pages/Contatos'));
 
 
 
@@ -25,19 +30,26 @@ class App extends Component {
     console.log(this.state);
     console.log("This is the process.env", process.env.PUBLIC_URL);
     return (
+
       <div className="App" >
         <link href={Bootstrap} rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet" />
         <link href={Animate} rel="stylesheet" />
 
-
-        <Route exact path={`/`} render={(routerProps) => < Principal routerProps={routerProps} />} />
-        <Route exact path={`/sobre`} render={(routerProps) => < Sobre routerProps={routerProps} />} />
-        <Route exact path={`/habilidades`} component={Habilidades} />
-        {/*<Route exact path={`/apresentacao`} component={Apresentacao} />*/}
-        <Route exact path={`/portfolio`} component={Portfolio} />
-        <Route exact path={`/contatos`} component={Contatos} />
-
+        <Suspense fallback={
+          <div className='loading-screen'>
+            <div className='loading-container'>
+              <img className='imagem' src={LoadingImagem}></img>
+              <img className='texto' src={LoadingTexto}></img>
+            </div>
+          </div>
+        }>
+          <Route exact path={`/`} component={Principal} />
+          <Route exact path={`/sobre`} component={Sobre} />
+          <Route exact path={`/habilidades`} component={Habilidades} />
+          <Route exact path={`/portfolio`} component={Porfolio} />
+          <Route exact path={`/contatos`} component={Contatos} />
+        </Suspense>
 
       </div>
 

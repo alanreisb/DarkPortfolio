@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import MenuLateral from '../components/menu-lateral';
+import MenuLateral from '../components/Todas/menu-lateral';
 import Exodus from '../components/imagens/portfolio/Exodus.gif';
 
 
